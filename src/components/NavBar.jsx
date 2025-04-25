@@ -4,24 +4,24 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar" role="navigation">
-      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+      <NavLink to="/" className= "active">
         Home
       </NavLink>
       <NavLink
         to="/directors"
-        className={({ isActive }) => (isActive ? "active" : "")}
+        className= "active"
       >
         Directors
       </NavLink>
       <NavLink
         to="/actors"
-        className={({ isActive }) => (isActive ? "active" : "")}
+        className= "active"
       >
         Actors
       </NavLink>
       <NavLink
-        to="/movies"
-        className={({ isActive }) => (isActive ? "active" : "")}
+        to="/movie/"
+        className= "active"
       >
         Movies
       </NavLink>

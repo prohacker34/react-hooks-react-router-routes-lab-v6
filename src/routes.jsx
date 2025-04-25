@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: "/movie/:id",
-    element: <Movie />,
+    element: <Movie />
   },
 
 
